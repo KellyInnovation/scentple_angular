@@ -36,7 +36,7 @@
 				</button>
 			</div>
 			<div class="col-sm-4 col-sm-offset-2">
-				<button>					
+				<button ng-click="sampleFragranceCommercial()">					
 					Sample This Fragrance					
 				</button>
 			</div>
@@ -44,7 +44,7 @@
 	</div>
 
 	<div class="container selection-page" ng-show="mainCtrl.selectionPageClicked">
-				<div class="row">
+		<div class="row">
 			<div class="col-sm-4">
 				<div class="row">
 					<button class="top-selection">
@@ -141,6 +141,25 @@
 					</button>
 				</div>				
 			</div>
+		</div>
+	</div>
+
+	<div class="container mens-all" ng-repeat="scent in mainCtrl.contentsJSON">
+		{{scent}}
+	</div>
+
+	<div class="container sample-card-example">
+		<div class="card-box">
+			<div class="row">
+				<img class="gucci-black-logo" src="/scentple_angular/gucci_black_logo.jpg/">
+			</div>
+			<div class="row">
+	        	<h2>Gucci Guilty Black Pour Homme 90ml Eau de Toilette Spray</h2>
+	        </div>
+	        <div class="row">
+	        	<h3>www.Gucci.com</h3>
+	        </div>
+		</div>
 	</div>
 </body>
 
