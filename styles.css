@@ -1,6 +1,12 @@
+body {
+	margin-top: 90px;
+}
+
 button {
 	background-color: #e6e6e6;
 	border-radius: 6px;
+	text-decoration: none;
+	color: black;
 }
 
 footer {
@@ -12,6 +18,33 @@ footer {
 
 nav {
 	background-color: black;
+}
+
+iframe {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.fa-home {
+	text-decoration: none;
+	color: white;
+	font-size: 40px;
+}
+
+.fa-home button {
+	background-color: black;
+}
+
+.selection-choices {
+	background-color: #f2e9e1;
+	border-radius: 6px;
+	font-size: 40px;
+	margin: 10px;
+}
+
+.selection-choices a {
+	text-decoration: none;
+	color: black;
 }
 
 .scentple-logo {

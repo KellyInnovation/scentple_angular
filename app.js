@@ -2,6 +2,17 @@
 
 function MainController() {
 	const ctrl = this;
+	ctrl.indexClicked = true;
+	ctrl.selectionPageClicked = false;
+
+	function goToIndex () {
+		ctrl.indexClicked = true;
+	}
+
+	function goToSelectionPage () {
+		ctrl.indexClicked = false;
+		ctrl.selectionPageClicked = true;
+	}
 
 	function getJSON() {
 		$http.get("fragrances.json")
@@ -15,6 +26,9 @@ function MainController() {
 
 	ctrl.getJSON();
 }
+
+	ctrl.goToIndex = goToIndex;
+	ctrl.goToSelectionPage = goToSelectionPage;
 
 angular.module('app', [])
 	.controller('MainCtrl', MainController);

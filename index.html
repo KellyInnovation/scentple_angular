@@ -10,14 +10,138 @@
     <script src="https://use.fontawesome.com/a04d9e4c1c.js"></script>
     <link rel="stylesheet" type="text/css" href="/scentple_angular/styles.css" />
 </head>
-<body>
+<body ng-controller="MainCtrl as mainCtrl">
 	<header>
 		<nav class="navbar navbar-fixed-top">
-			
+			<div class="container nav-container">
+				<div class="navbar-header navbar-right">		
+					<button ng-click="mainCtrl.goToIndex()">
+						
+							<i class="fa fa-home" aria-hidden="true"></i>
+						
+					</button>
+				</div>
+			</div>
 		</nav>
 	</header>
 
+	<div class="container index-container" ng-show="mainCtrl.indexClicked">
+		<div class="row">
+			<iframe width="854" height="480" src="https://www.youtube.com/embed/cwfVjUw2BDU" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-1">
+				<button ng-click="mainCtrl.goToSelectionPage()">					
+					Select a Fragrance					
+				</button>
+			</div>
+			<div class="col-sm-4 col-sm-offset-2">
+				<button>					
+					Sample This Fragrance					
+				</button>
+			</div>
+		</div>
+	</div>
 
+	<div class="container selection-page" ng-show="mainCtrl.selectionPageClicked">
+				<div class="row">
+			<div class="col-sm-4">
+				<div class="row">
+					<button class="top-selection">
+						Women						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Scent						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Price						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Brand						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Name						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Featured						
+					</button>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="row">
+					<button class="top-selection">
+						Neutral						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Scent						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Price						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Brand						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Name						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Featured						
+					</button>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="row">
+					<button class="top-selection">
+						Men						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Scent						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Price						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Brand						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Name						
+					</button>
+				</div>
+				<div class="row">
+					<button class="selection-choices">
+						Featured						
+					</button>
+				</div>				
+			</div>
+	</div>
 </body>
 
 <footer class="page-footer">
