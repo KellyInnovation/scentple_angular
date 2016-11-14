@@ -1,0 +1,20 @@
+button {
+	background-color: #e6e6e6;
+	border-radius: 6px;
+}
+
+footer {
+	position: fixed;
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+nav {
+	background-color: black;
+}
+
+.scentple-logo {
+	height: 40px;
+	align: center;
+}

@@ -1,0 +1,49 @@
+[
+	{
+		"fragranceName": "Guilty Black",
+		"company": "Gucci",
+		"gender": "men",
+		"description": "Top notes of lavender and coriander.  Heart notes of orange flower.  Base notes of patchouli.",
+		"fragranceImage": "http://www.punmiris.com/himg/o.18517.jpg",
+		"fragranceFamily": "Floral Musk",
+		"website": "www.Gucci.com"
+	},
+	{
+		"fragranceName": "Guilty",
+		"company": "Gucci",
+		"gender": "men",
+		"promotion": "Introducing a limited edition version of the Gucci Guilty fragrance.  Inspired by the world of Alessandro Michele, this collector's edition is presented in a platinum-toned metal bottle with interlocking G design.",
+		"description": "Top notes of geranium and pink pepper.  Heart notes of lilac and peach.  Base notes of amber and patchouli.",
+		"fragranceImage": "https://fimgs.net/images/perfume/nd.34643.jpg",
+		"fragranceFamily": "Floral Musk",
+		"website": "www.Gucci.com"
+	},
+	{
+		"fragranceName": "Gucci Sport",
+		"company": "Gucci",
+		"gender": "men",
+		"description": "Top note of grapefruit.  Heart notes of cardamom and fig.  Base note of patchouli.  An aromatic citrus fragrance.",
+		"fragranceImage": "http://ecx.images-amazon.com/images/I/81DWB8ZLiLL._SL1500_.jpg",
+		"fragranceFamily": "Citrus",
+		"website": "www.Gucci.com"
+	},
+	{
+		"fragranceName": "Intense Oud",
+		"company": "Gucci",
+		"gender": "men",
+		"description": "Top notes of pear, raspberry and saffron.  Heart notes of bulgarian rose and orange flower.  Base notes of natural uod oil and patchouli.",
+		"fragranceImage": "http://www.parisgallery.com/products/images/zoom/1-paris-gallery-gucci-82458522.jpg",
+		"fragranceFamily": "Floral Musk",
+		"website": "www.Gucci.com"
+	},	
+	{
+		"fragranceName": "Bamboo",
+		"company": "Gucci",
+		"gender": "women",
+		"description": "Top notes of bergamot.  Heart notes of casablanca lily and ylang ylang extra-comoros.  Base notes of sandalwood.",
+		"fragranceImage": "https://macys-o.scene7.com/is/image/MCY/products/2/optimized/2877962_fpx.tif?wid=1320&hei=1616&fit=fit,1&$filterlrg$",
+		"fragranceFamily": "Woody",
+		"website": "www.Gucci.com"
+	},
+	
+]
