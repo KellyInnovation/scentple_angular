@@ -48,10 +48,10 @@ iframe {
 .selection-choices {
 	background-color: #f2e9e1;
 	border-radius: 6px;
-	font-size: 40px;
+	font-size: 36px;
 	margin: 10px;
-	width: 250px;
-	align-content: center;
+	width: 100%;
+
 }
 
 .card-box {

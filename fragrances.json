@@ -45,5 +45,22 @@
 		"fragranceFamily": "Woody",
 		"website": "www.Gucci.com"
 	},
-	
+	{
+		"fragranceName": "Cargo De Nuit",
+		"company": "Prada",
+		"gender": "neutral",
+		"description": "An ocean voyage under the cover of night. Celestial navigation and shadowy cargo. A daring yet addictive journey. Handle with care. Cargo de Nuit is the scent of a twilight passage on the high seas.",
+		"fragranceImage": "http://pimages.parfumo.de/480/64596_z4ex5e_olfactories__cargo_de_nuit_480.jpg",
+		"fragranceFamily": "Fresh",
+		"website": "www.Prada.com"
+	},
+	{
+		"fragranceName": "Chance: Eau de Toilette",
+		"company": "Chanel",
+		"gender": "women",
+		"description": "Filled with vitality and energy, this unexpected floral fragrance evolves from one moment to the next.",
+		"fragranceImage": "http://www.chanel.com/en_US/fragrance-beauty/cms2export/Site1Files/P126440/S126490_XLARGE.jpg",
+		"fragranceFamily": "Floral",
+		"website": "www.Chanel.com"
+	}	
 ]

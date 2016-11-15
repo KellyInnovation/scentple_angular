@@ -1,11 +1,11 @@
 'use strict';
 
-function MainController() {
+function MainController($http) {
 	const ctrl = this;
 	ctrl.indexClicked = true;
 	ctrl.selectionPageClicked = false;
 	ctrl.printCard = false;
-	ctrl.contentsJSON = null;
+	ctrl.contentsJSON = {};
 
 	function goToIndex () {
 		ctrl.indexClicked = true;
@@ -31,6 +31,7 @@ function MainController() {
 		.error(function(data, status, error, config) {
 			ctrl.contentsJSON = [{heading: "Error", description: "Could not load JSON."}];
 		})
+		console.log("call JSON")
 	}
 
 	
@@ -40,6 +41,7 @@ function MainController() {
 	ctrl.getJSON = getJSON;
 	ctrl.sampleFragranceCommercial = sampleFragranceCommercial;
 
+	ctrl.getJSON()
 }
 
 angular.module('app', [])
