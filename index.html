@@ -15,17 +15,15 @@
 		<nav class="navbar navbar-fixed-top">
 			<div class="container nav-container">
 				<div class="navbar-header navbar-right">		
-					<button ng-click="mainCtrl.goToIndex()">
-						
-							<i class="fa fa-home" aria-hidden="true"></i>
-						
+					<button ng-click="mainCtrl.goToIndex()" class="home-button">						
+						<i class="fa fa-home" aria-hidden="true"></i>
 					</button>
 				</div>
 			</div>
 		</nav>
 	</header>
 
-	<div class="container index-container" ng-show="mainCtrl.indexClicked">
+	<div class="container index-container " ng-show="mainCtrl.indexClicked">
 		<div class="row">
 			<iframe width="854" height="480" src="https://www.youtube.com/embed/cwfVjUw2BDU" frameborder="0" allowfullscreen></iframe>
 		</div>
@@ -37,13 +35,13 @@
 			</div>
 			<div class="col-sm-4 col-sm-offset-2">
 				<button ng-click="sampleFragranceCommercial()">					
-					Sample This Fragrance					
+					Sample Fragrance					
 				</button>
 			</div>
 		</div>
 	</div>
 
-	<div class="container selection-page" ng-show="mainCtrl.selectionPageClicked">
+	<div class="container selection-page ng-hide" ng-show="mainCtrl.selectionPageClicked">
 		<div class="row">
 			<div class="col-sm-4">
 				<div class="row">
@@ -154,20 +152,22 @@
 				<img class="gucci-black-logo" src="/scentple_angular/gucci_black_logo.jpg/">
 			</div>
 			<div class="row">
-	        	<h2>Gucci Guilty Black Pour Homme 90ml Eau de Toilette Spray</h2>
+	        	<h2>Gucci Guilty Black</h2>
+	        </div>
+	        <div class="row">
+	        	<h3>Pour Homme 90ml Eau de Toilette Spray</h3>
 	        </div>
 	        <div class="row">
 	        	<h3>www.Gucci.com</h3>
 	        </div>
 		</div>
 	</div>
-</body>
 
-<footer class="page-footer">
-    <div class="container">
-        <img class="scentple-logo" src="/scentple_angular/scentple_logo.png/">
-    </div>
-</footer>
+	<footer class="page-footer">
+	    <div class="container">
+	        <img class="scentple-logo" src="/scentple_angular/scentple_logo.png/">
+	    </div>
+	</footer>
 
     <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->

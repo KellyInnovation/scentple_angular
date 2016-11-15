@@ -9,11 +9,14 @@ function MainController() {
 
 	function goToIndex () {
 		ctrl.indexClicked = true;
+		ctrl.selectionPageClicked = false;
+		ctrl.printCard = false;
 	}
 
 	function goToSelectionPage () {
 		ctrl.indexClicked = false;
 		ctrl.selectionPageClicked = true;
+		console.log("selection called")
 	}
 
 	function sampleFragranceCommercial () {
@@ -31,13 +34,14 @@ function MainController() {
 		})
 	}
 
-	ctrl.getJSON();
-}
+	
 
 	ctrl.goToIndex = goToIndex;
 	ctrl.goToSelectionPage = goToSelectionPage;
 	ctrl.getJSON = getJSON;
 	ctrl.sampleFragranceCommercial = sampleFragranceCommercial;
+
+}
 
 angular.module('app', [])
 	.controller('MainCtrl', MainController);

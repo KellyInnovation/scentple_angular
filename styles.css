@@ -33,12 +33,13 @@ iframe {
 	font-size: 40px;
 }
 
-.fa-home button {
+.home-button {
 	background-color: black;
+	border: none;
 }
 
 .top-selection {
-	width: 100%;
+	width: 90%;
 	font-size: 48px;
 }
 
