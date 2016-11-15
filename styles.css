@@ -9,6 +9,7 @@ button {
 	text-decoration: none;
 	color: black;
 	font-size: 40px;
+	margin: 15px;
 }
 
 footer {
@@ -36,6 +37,7 @@ iframe {
 .home-button {
 	background-color: black;
 	border: none;
+	margin: 0;
 }
 
 .top-selection {
@@ -49,6 +51,7 @@ iframe {
 	font-size: 40px;
 	margin: 10px;
 	width: 250px;
+	align-content: center;
 }
 
 .card-box {
@@ -56,6 +59,8 @@ iframe {
 	text-align: center;
 	min-height: 400px;
 	border: solid black 2px;
+	margin: 0 auto;
+	margin-top: 100px;
 }
 
 .gucci-black-logo {

@@ -34,7 +34,7 @@
 				</button>
 			</div>
 			<div class="col-sm-4 col-sm-offset-2">
-				<button ng-click="sampleFragranceCommercial()">					
+				<button ng-click="mainCtrl.sampleFragranceCommercial()">					
 					Sample Fragrance					
 				</button>
 			</div>
@@ -146,8 +146,9 @@
 		{{scent}}
 	</div>
 
-	<div class="container sample-card-example">
-		<div class="card-box">
+	<div class="container sample-card-example ng-hide" ng-show="mainCtrl.printCard">
+		
+		<div class="card-box " >
 			<div class="row">
 				<img class="gucci-black-logo" src="/scentple_angular/gucci_black_logo.jpg/">
 			</div>

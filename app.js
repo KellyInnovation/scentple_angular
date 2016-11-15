@@ -16,7 +16,6 @@ function MainController() {
 	function goToSelectionPage () {
 		ctrl.indexClicked = false;
 		ctrl.selectionPageClicked = true;
-		console.log("selection called")
 	}
 
 	function sampleFragranceCommercial () {
