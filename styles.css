@@ -42,16 +42,21 @@ iframe {
 
 .top-selection {
 	width: 90%;
-	font-size: 48px;
+	font-size: 40px;
 }
 
 .selection-choices {
 	background-color: #f2e9e1;
 	border-radius: 6px;
-	font-size: 36px;
+	font-size: 34px;
 	margin: 10px;
 	width: 100%;
 
+}
+
+.featured-scent {
+	width: 100%;
+	
 }
 
 .card-box {

@@ -31,7 +31,6 @@ function MainController($http) {
 		.error(function(data, status, error, config) {
 			ctrl.contentsJSON = [{heading: "Error", description: "Could not load JSON."}];
 		})
-		console.log("call JSON")
 	}
 
 	

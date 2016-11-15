@@ -40,12 +40,17 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="container selection-page ng-hide" ng-show="mainCtrl.selectionPageClicked">
-		<div class="row" ng-repeat="scent in mainCtrl.contentsJSON">
+	<div >
+	<div class="container selection-page ng-hide" ng-show="mainCtrl.selectionPageClicked" >
+		<div class="row" >
 			<div class="col-sm-4">
-				<div class="row">
-					{{scent}}
+				<div class="row" ng-repeat="scent in mainCtrl.contentsJSON">
+					<div ng-if="scent.featured" class="col-sm-8 col-sm-offset-2">
+						<img 
+							src="{{scent.fragranceImage}}" 
+							ng-show="scent.gender == 'women'"
+							class="featured-scent">						
+					</div>
 				</div>
 				<div class="row">
 					<button class="top-selection">
@@ -89,6 +94,14 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
+				<div class="row" ng-repeat="scent in mainCtrl.contentsJSON">
+					<div ng-if="scent.featured" class="col-sm-8 col-sm-offset-2">
+						<img 
+							src="{{scent.fragranceImage}}" 
+							ng-show="scent.gender == 'neutral'"
+							class="featured-scent">						
+					</div>
+				</div>
 				<div class="row">
 					<button class="top-selection">
 						Neutral						
@@ -131,6 +144,14 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
+				<div class="row" ng-repeat="scent in mainCtrl.contentsJSON">
+					<div ng-if="scent.featured" class="col-sm-8 col-sm-offset-2">
+						<img 
+							src="{{scent.fragranceImage}}" 
+							ng-show="scent.gender == 'men'"
+							class="featured-scent">						
+					</div>
+				</div>				
 				<div class="row">
 					<button class="top-selection">
 						Men						
@@ -175,8 +196,8 @@
 		</div>
 	</div>
 
-	<div class="container mens-all" ng-repeat="scent in mainCtrl.contentsJSON">
-		{{scent}}
+	<div class="container mens-all" >
+		
 	</div>
 
 	<div class="container sample-card-example ng-hide" ng-show="mainCtrl.printCard">
