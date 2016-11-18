@@ -1,28 +1,10 @@
 'use strict';
 
-function MainController($http) {
+function MainController($http, $filter) {
 	const ctrl = this;
-	ctrl.indexClicked = true;
-	ctrl.selectionPageClicked = false;
-	ctrl.printCard = false;
 	ctrl.contentsJSON = {};
 	ctrl.pickAPage = 'front_page.html';
 
-	function goToIndex () {
-		ctrl.indexClicked = true;
-		ctrl.selectionPageClicked = false;
-		ctrl.printCard = false;
-	}
-
-	function goToSelectionPage () {
-		ctrl.indexClicked = false;
-		ctrl.selectionPageClicked = true;
-	}
-
-	function sampleFragranceCommercial () {
-		ctrl.indexClicked = false;
-		ctrl.printCard = true;
-	}
 
 	function getJSON() {
 		$http.get("fragrances.json")
@@ -34,12 +16,15 @@ function MainController($http) {
 		})
 	}
 
-	
+	// function selectCategory() {
+	// 	$filter('womenFilter');
+	// 	ctrl.pickAPage = 'logo_displays.html';
+	// }
 
-	ctrl.goToIndex = goToIndex;
-	ctrl.goToSelectionPage = goToSelectionPage;
+	// $filter('womenFilter')('ctrl.contentsJSON.gender == women')
+
 	ctrl.getJSON = getJSON;
-	ctrl.sampleFragranceCommercial = sampleFragranceCommercial;
+	// ctrl.selectCategory = selectCategory;
 
 	ctrl.getJSON()
 }
