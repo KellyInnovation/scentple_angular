@@ -6,7 +6,7 @@ function MainController($http) {
 	ctrl.selectionPageClicked = false;
 	ctrl.printCard = false;
 	ctrl.contentsJSON = {};
-	ctrl.viewPage = index.html;
+	ctrl.pickAPage = 'front_page.html';
 
 	function goToIndex () {
 		ctrl.indexClicked = true;

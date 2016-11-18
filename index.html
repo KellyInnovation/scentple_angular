@@ -1,17 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Scentple
+    </title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a04d9e4c1c.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body ng-controller="MainCtrl as mainCtrl">
+	<header>
+		<nav class="navbar navbar-fixed-top">
+			<div class="container nav-container">
+				<div class="navbar-header navbar-right">		
+					<button ng-click="mainCtrl.goToIndex()" class="home-button">						
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</button>
+				</div>
+			</div>
+		</nav>
+	</header>
 
-<div class="row">
-	<iframe width="854" height="480" src="https://www.youtube.com/embed/cwfVjUw2BDU" frameborder="0" allowfullscreen></iframe>
-</div>
-<div class="row">
-	<div class="col-sm-4 col-sm-offset-1">
-		<button ng-click="mainCtrl.goToSelectionPage()">					
-			Select a Fragrance					
-		</button>
+	<div class="container" ng-include src="mainCtrl.pickAPage">
+		
 	</div>
-	<div class="col-sm-4 col-sm-offset-2">
-		<button ng-click="mainCtrl.sampleFragranceCommercial()">					
-			Sample Fragrance					
-		</button>
-	</div>
-</div>
 
+	<footer class="page-footer">
+	    <div class="container">
+	        <img class="scentple-logo" src="/scentple_angular/scentple_logo.png/" />
+	    </div>
+	</footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.22.1/ramda.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
