@@ -15,16 +15,16 @@ function MainController($http, $filter) {
 			ctrl.contentsJSON = [{heading: "Error", description: "Could not load JSON."}];
 		})
 	}
+	// $filter('womenFilter')(ctrl.contentsJSON, ctrl.contentsJSON.gender == 'women')
 
-	// function selectCategory() {
-	// 	$filter('womenFilter');
-	// 	ctrl.pickAPage = 'logo_displays.html';
-	// }
+	function selectCategory() {
+		// $filter('womenFilter');
+		ctrl.pickAPage = 'logo_displays.html';
+	}
 
-	// $filter('womenFilter')('ctrl.contentsJSON.gender == women')
 
 	ctrl.getJSON = getJSON;
-	// ctrl.selectCategory = selectCategory;
+	ctrl.selectCategory = selectCategory;
 
 	ctrl.getJSON()
 }

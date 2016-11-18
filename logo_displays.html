@@ -1,0 +1,6 @@
+<div class="row" >
+	<div class="col-sm-3" ng-repeat="scent in mainCtrl.contentsJSON" ng-if="scent.gender == 'women'">
+		<img src="{{scent.fragranceImage}}" class="logo-sample-image">
+		{{scent.fragranceName}}
+	</div>
+</div>
