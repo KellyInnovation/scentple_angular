@@ -1,10 +1,12 @@
 'use strict';
 
-function MainController($http, $filter) {
+function MainController($http) {
 	const ctrl = this;
 	ctrl.contentsJSON = {};
 	ctrl.pickAPage = 'front_page.html';
-
+	ctrl.gender = '';
+	ctrl.category = '';
+	ctrl.price = '';
 
 	function getJSON() {
 		$http.get("fragrances.json")
@@ -16,9 +18,23 @@ function MainController($http, $filter) {
 		})
 	}
 	// $filter('womenFilter')(ctrl.contentsJSON, ctrl.contentsJSON.gender == 'women')
+		// $filter('womenFilter'); trying to use filter to separate womens fragrances from others
+
 
 	function selectCategory() {
-		// $filter('womenFilter');
+		if (ctrl.gender == 'women') {
+			console.log('women');
+		}
+		else if (ctrl.gender == 'men') {
+			console.log('men');
+		}
+		else if (ctrl.gender == 'neutral') {
+			console.log('neutral')
+		}
+		else {
+			alert("incorrect entry")
+		}
+
 		ctrl.pickAPage = 'logo_displays.html';
 	}
 

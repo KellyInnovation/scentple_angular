@@ -79,356 +79,80 @@
 	},
 	{
 		"description": "A festive blend of sparkling champagne, crystal peonies & almond creme", 
-		"fragranceImage": "/graphics/product_images/pBBW1-19221600v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-19221600v850.jpg", 
 		"price": "$39.50", 
 		"fragranceName": "A Thousand Wishes Eau de Parfum", 
 		"gender": "women"
 	},
 	{
 		"description": "A soft blend of lavender, lilies, oakmoss & musk", 
-		"fragranceImage": "/graphics/product_images/pBBW1-15992283v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-15992283v850.jpg", 
 		"price": "$29.50", 
 		"fragranceName": "Moonlight Path Eau de Toilette",  
 		"gender": "women"
 	},
 	{
 		"description": "A wondrous blend of almond flower, white iris & whipped vanilla", 
-		"fragranceImage": "/graphics/product_images/pBBW1-24394602v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24394602v850.jpg",
 		"price": "$39.50", 
 		"fragranceName": "Magic in the Air Eau de Parfum", 
 			"gender": "women"
 		},
 	{
 		"description": "A carefree blend of green apple, wild pink poppies & dewy pear", 
-		"fragranceImage": "/graphics/product_images/pBBW1-14865694v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-14865694v850.jpg",
 		"price": "$29.50", 
 		"fragranceName": "Beautiful Day Eau de Toilette",  
 		"gender": "women"
 	},
 	{
 		"description": "A sweet indulgence of sheer florals, vanilla absolute & sandalwood", 
-		"fragranceImage": "/graphics/product_images/pBBW1-15992282v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-15992282v850.jpg",
 		"price": "$29.50", 
 		"fragranceName": "Warm Vanilla Sugar Eau de Toilette", 
 		"gender": "women"
 	},
 	{
 		"description": "An award-winning mix of juicy raspberries & pear kissed by soft pink petals", 
-		"fragranceImage": "/graphics/product_images/pBBW1-13237754v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-13237754v850.jpg",
 		"price": "$34.50", 
 		"fragranceName": "Sweet Pea Eau de Toilette", 
 		"gender": "women"
 	},
 	{
 		"description": "A romantic bouquet of French lavender, nectarine de Provence& sun-kissed honey.", 
-		"fragranceImage": "/graphics/product_images/pBBW1-17940113v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-17940113v850.jpg",
 		"price": "$39.50", 
 		"fragranceName": "French Lavender & Honey Eau de Parfum", 
 		"gender": "women"
 	},
 	{
-		"description": "A passionate blend of pomegranate & red osmanthus with a sexy surprise of vanilla rum", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$45.00", 
-		"fragranceName": "Forever Red Eau de Parfum", 
-		"gender": "women"
-	},
-	{
-		"description": "A light-as-air pairing of soft pink petals & vanilla chiffon icing", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$29.50", 
-		"fragranceName": "Pink Chiffon Eau de Toilette", 
-		"gender": "women"
-	},
-	{
-		"description": "A dreamy blend of French tulips with a pop of pink champagne", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$34.50", 
-		"fragranceName": "Paris Amour Eau de Toilette", 
-		"gender": "women"
-	},
-	{
-		"description": "A love-struck pairing of soft peonies & black currant kissed with creamy vanilla musk.", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$34.50", 
-		"fragranceName": "Mad About You Eau de Toilette", 
-		"gender": "women"
-	},
-	{
-		"description": "A sexy summer blend of coconut water, Tahitian vanilla musk & kiwi blossom", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$39.50", 
-		"fragranceName": "Tahiti Island Dream Eau de Parfum",  
-		"gender": "women"
-	},
-	{
-		"description": "A new collection of unisex fragrances! Watery. Clean. Light as air.", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$45.00", 
-		"fragranceName": "Freshwater Lavender Eau de Toilette", 
-		"gender": "neutral"
-	},
-	{
-		"description": "A new collection of unisex fragrances! Fresh. Nuzzly. Woody.", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$45.00", 
-		"fragranceName": "Sea Salt Mimosa Eau de Toilette", 
-		"gender": "neutral"
-	},
-	{
-		"description": "A new collection of unisex fragrances! Sensual. Warm. Intoxicating vanilla.", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$45.00", 
-		"fragranceName": "Vanilla Birch Eau de Toilette",  
-		"gender": "women"
-	},
-	{
-		"description": "A new collection of unisex fragrances! Sparkling. Happy. Citrus fusion.", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$45.00", 
-		"fragranceName": "Lime Coriander Eau de Toilette",  
-		"gender": "neutral"
-	},
-	{
-		"description": "A new collection of unisex fragrances! Warm. Rich. Mysterious.", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$45.00", 
-		"fragranceName": "Bergamot Amber Eau de Toilette",  
-		"gender": "neutral"
-	},
-	{
-		"description": "A new collection of unisex fragrances! Warm. Soft. Second-skin musk.", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$45.00", 
-		"fragranceName": "Almond Musk Eau de Toilette",
-		"gender": "neutral"
-	},
-	{
-		"description": "A new collection of unisex fragrances! Clean. Fresh. Bright citrus.", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$45.00", 
-		"fragranceName": "Citrus Vetiver Eau de Toilette", 
-		"gender": "neutral"
-	},
-	{
-		"description": "A new collection of unisex fragrances! Creamy. Fresh. Fruity floral.", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$45.00", 
-		"fragranceName": "Cashmere Fig Eau de Toilette", 
-		"gender": "neutral"
-	},
-	{
-		"description": "An invigorating blend of fresh cypress, vetiver & cool ocean air", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$29.50", 
-		"fragranceName": "Ocean For Men Cologne", 
-		"gender": "women"
-	},
-	{
-		"description": "An exotic blend of black cardamom, smoky vanilla & a hint of musk", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$29.50", 
-		"fragranceName": "Noir For Men Cologne", 
-		"gender": "women"
-	},
-	{
-		"description": "A sophisticated blend of rich leather woods, bergamot & blue sage", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$34.50", 
-		"fragranceName": "Midnight For Men Cologne",
-		"gender": "women"
-	},
-	{
-		"description": "A captivating rush of fresh water, aromatic bergamot & white cedar", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$29.50", 
-		"fragranceName": "Whitewater Rush For Men Cologne", 
-		"gender": "women"
-	},
-	{
-		"description": "An addictive elixir of fresh mahogany, bourbon vanilla & golden amber", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$29.50", 
-		"fragranceName": "Mahogany Woods For Men Cologne", 
-		"gender": "women"
-	},
-	{
-		"description": "A bold, sophisticated blend of alpine air, wild vetiver & warm mountain suede", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$29.50", 
-		"fragranceName": "Alpine Suede For Men Cologne", 
-		"gender": "women"
-	},
-	{
-		"description": "A clean, juicy blend of effervescent citrus with green lemon leaves and creamy undertones of warm musk", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$34.50", 
-		"fragranceName": "Lemon Eau de Parfum", 
-		"gender": "women"
-	},
-	{
-		"description": "Watery marine notes, lavender and rosemary with hints of clean white musk and woody undertones", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$19.50", 
-		"fragranceName": "Elixir Blue Cologne",
-		"gender": "women"
-	},
-	{
-		"description": "An exotic blend of agar wood and tonka bean with undertones of amber, musk & vanilla", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$19.50", 
-		"fragranceName": "Elixir Black Cologne",  
-		"gender": "women"
-	},
-	{
-		"description": "Clean citrus notes of bergamot, grapefruit and mandarin with undertones of peppery wood spices", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$19.50", 
-		"fragranceName": "Elixir White Cologne",  
-		"gender": "women"
-	},
-	{
-		"description": "Crisp, lush herbaceous notes with warm amber, musk & elegant woods", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"price": "$19.50", 
-		"fragranceName": "Elixir Green Cologne",  
-		"gender": "women"
-	},
-
-	{
 		"fragranceName": "Mandarin Oak Cologne Mist", 
 		"price": "$9.00",  
 		"gender": "men", 
-		"fragranceImage": "/graphics/product_images/pBBW1-24816226v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24816226v850.jpg", 
 		"description": "A new collection of unisex fragrances! Warm. Woody. Oriental citrus."
 	},
 	{
 		"fragranceName": "Cashmere Fig Eau de Toilette", 
 		"price": "$45.00",  
 		"gender": "men", 
-		"fragranceImage": "/graphics/product_images/pBBW1-24827645v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24827645v850.jpg", 
 		"description": "A new collection of unisex fragrances! Creamy. Fresh. Fruity floral."
 	},
 	{
 		"fragranceName": "Almond Musk Cologne Mist", 
 		"price": "$9.00",
 		"gender": "men", 
-		"fragranceImage": "/graphics/product_images/pBBW1-24816228v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24816228v850.jpg", 
 		"description": "A new collection of unisex fragrances! Warm. Soft. Second-skin musk."
 	},
 	{
 		"fragranceName": "Almond Musk Eau de Toilette", 
 		"price": "$45.00",  
 		"gender": "men", 
-		"fragranceImage": "/graphics/product_images/pBBW1-24827648v850.jpg", 
+		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24827648v850.jpg", 
 		"description": "A new collection of unisex fragrances! Warm. Soft. Second-skin musk."
-	},
-	{
-		"fragranceName": "Citrus Vetiver Eau de Toilette", 
-		"price": "$45.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Clean. Fresh. Bright citrus."
-	},
-	{
-		"fragranceName": "Cashmere Fig Cologne Mist", 
-		"price": "$9.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Creamy. Fresh. Fruity floral."
-	},
-	{
-		"fragranceName": "Freshwater Lavender Cologne Mist", 
-		"price": "$9.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Watery. Clean. Light as air."
-	},
-	{
-		"fragranceName": "Freshwater Lavender Eau de Toilette", 
-		"price": "$45.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Watery. Clean. Light as air."
-	},
-	{
-		"fragranceName": "Sea Salt Mimosa Cologne Mist", 
-		"price": "$9.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Fresh. Nuzzly. Woody."
-	},
-	{
-		"fragranceName": "Sea Salt Mimosa Eau de Toilette", 
-		"price": "$45.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Fresh. Nuzzly. Woody."
-	},
-	{
-		"fragranceName": "Vanilla Birch Eau de Toilette", 
-		"price": "$45.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Sensual. Warm. Intoxicating vanilla."
-	},
-
-	{
-		"fragranceName": "Bergamot Amber Cologne Mist", 
-		"price": "$9.00",  
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Warm. Rich. Mysterious."
-	},
-	{
-		"fragranceName": "Bergamot Amber Eau de Toilette", 
-		"price": "$45.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Warm. Rich. Mysterious."
-	},
-	{
-		"fragranceName": "Lime Coriander Cologne Mist", 
-		"price": "$9.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Sparkling. Happy. Citrus fusion."
-	},
-	{
-		"fragranceName": "Lime Coriander Eau de Toilette", 
-		"price": "$45.00", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A new collection of unisex fragrances! Sparkling. Happy. Citrus fusion."
-	},
-	{
-		"fragranceName": "Ocean For Men Cologne", 
-		"price": "$29.50", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "An invigorating blend of fresh cypress, vetiver & cool ocean air"
-	},
-	{
-		"fragranceName": "Noir For Men Cologne", 
-		"price": "$29.50", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "An exotic blend of black cardamom, smoky vanilla & a hint of musk"
-	},
-	{
-		"fragranceName": "Midnight For Men Cologne", 
-		"price": "$34.50", 
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A sophisticated blend of rich leather woods, bergamot & blue sage"
-	},
-
-	{
-		"fragranceName": "Whitewater Rush For Men Cologne", 
-		"price": "$29.50",
-		"gender": "men", 
-		"fragranceImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQYV2NgYAAAAAMAAWgmWQ0AAAAASUVORK5CYII=", 
-		"description": "A captivating rush of fresh water, aromatic bergamot & white cedar"
 	}
 
 ]

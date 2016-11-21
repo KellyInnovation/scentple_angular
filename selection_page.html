@@ -11,35 +11,54 @@
 		<div class="row">
 			<button 
 				class="top-selection"
-				ng-click="mainCtrl.selectCategory()"
+				ng-click="mainCtrl.gender = 'women'; mainCtrl.selectCategory()"
 			>
 				Women						
 			</button>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
-				<button class="selection-choices">
+				<button 
+					class="selection-choices"
+					data-toggle="modal"
+					data-target="#scentCategories"
+					ng-click="mainCtrl.gender=='women'"
+				>
 					Scent						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
-				<button class="selection-choices">
+				<button 
+					class="selection-choices"
+					data-toggle="modal"
+					data-target="#priceRanges"
+					ng-click="mainCtrl.gender=='women'"
+				>
 					Price						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
-				<button class="selection-choices">
+				<button 
+					class="selection-choices"
+					data-toggle="modal"
+					data-target="#brands"
+					ng-click="mainCtrl.gender=='women'"
+				>
 					Brand						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
-				<button class="selection-choices">
+				<button 
+					class="selection-choices"
+					ng-model="mainCtrl.gender == 'women'"
+					ng-click="mainCtrl.selectCategory()"
+				>
 					Name						
 				</button>
 			</div>
@@ -152,4 +171,21 @@
 			</div>
 		</div>				
 	</div>
+</div>
+<div 
+	class="modal fade"
+	id="priceRanges"
+>
+	<div 
+		class="modal-dialog modal-sm" 
+		role="document"
+	>
+		<div class="modal-content">
+			<div class="modal-header">
+				<h2>Prices</h2>
+			</div>
+		</div>
+		
+	</div>
+	
 </div>

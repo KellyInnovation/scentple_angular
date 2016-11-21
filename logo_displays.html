@@ -1,6 +1,14 @@
 <div class="row" >
-	<div class="col-sm-3" ng-repeat="scent in mainCtrl.contentsJSON" ng-if="scent.gender == 'women'">
-		<img src="{{scent.fragranceImage}}" class="logo-sample-image">
-		{{scent.fragranceName}}
+	<div class="col-sm-3 logo-blocks" ng-repeat="scent in mainCtrl.contentsJSON" ng-if="scent.gender == 'women'">
+		<div class="panel">
+			<div class="panel-body">
+				<img src="{{scent.fragranceImage}}" class="logo-sample-image">
+			</div>
+			<div class="panel-footer fragrance-names">
+				<div class="col-sm-10 col-sm-offset-1">
+					{{scent.fragranceName}}
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
