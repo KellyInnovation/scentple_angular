@@ -7,23 +7,32 @@ function MainController($http) {
 	ctrl.gender = '';
 	ctrl.category = '';
 	ctrl.price = '';
+	ctrl.byName = false;
+	ctrl.displayContents = [];
+	ctrl.fragranceInfo = [];
+	ctrl.womenJSON
+
 
 	function getJSON() {
 		$http.get("fragrances.json")
 		.success(function(data) {
 			ctrl.contentsJSON = data;
+			ctrl.womenJSON = data.gender === 'women';
+
 		})
 		.error(function(data, status, error, config) {
 			ctrl.contentsJSON = [{heading: "Error", description: "Could not load JSON."}];
 		})
+
 	}
 	// $filter('womenFilter')(ctrl.contentsJSON, ctrl.contentsJSON.gender == 'women')
 		// $filter('womenFilter'); trying to use filter to separate womens fragrances from others
 
-
 	function selectCategory() {
+		ctrl.displayContents = [];
 		if (ctrl.gender == 'women') {
-			console.log('women');
+			ctrl.displayContents.push(
+				);
 		}
 		else if (ctrl.gender == 'men') {
 			console.log('men');
@@ -38,9 +47,19 @@ function MainController($http) {
 		ctrl.pickAPage = 'logo_displays.html';
 	}
 
+	function fragranceInformation(scent) {
+		ctrl.fragranceInfo = [];
+		console.log("info run");
+		// var index = ctrl.contentsJSON.indexOf(scent);
+		ctrl.fragranceInfo.push(scent);
+		console.log(ctrl.fragranceInfo);
+		ctrl.pickAPage = 'fragrance_information.html';
+	}
+
 
 	ctrl.getJSON = getJSON;
 	ctrl.selectCategory = selectCategory;
+	ctrl.fragranceInformation = fragranceInformation;
 
 	ctrl.getJSON()
 }

@@ -68,10 +68,22 @@
 		"fragranceImage": "http://www.chanel.com/en_US/fragrance-beauty/cms2export/Site1Files/P126440/S126490_XLARGE.jpg",
 		"fragranceFamily": "Floral",
 		"website": "www.Chanel.com",
+		"featured": false
+	},
+	{
+		"fragranceName": "No 5: Eau Premiere Spray",
+		"company": "Chanel",
+		"gender": "women",
+		"description": "A modern, airy interpretation of N°5 . . . a silky-smooth harmony of notes that reveals the delicate facet of the now and forever fragrance. Created by Gabrielle Chanel in 1921 to be the ultimate symbol of luxurious simplicity, N°5 has since become more than a fragrance. It is an olfactory heritage: an idea of femininity, a masterpiece of chic, passed on from generation to generation.",
+		"fragranceImage": "http://www.chanel.com/en_US/fragrance-beauty/cms2export/Site1Files/P105170/S105340_XLARGE.jpg",
+		"fragranceFamily": "Floral",
+		"website": "www.Chanel.com",
+		"price": "$76.00",
 		"featured": true
 	},
 	{
 		"description": "A graceful, award-winning blend of pear, Japanese cherry blossoms & cedarwood", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-10244266v850.jpg", 		
 		"price": "$34.50", 
 		"fragranceName": "Japanese Cherry Blossom Eau de Toilette",  
@@ -79,6 +91,7 @@
 	},
 	{
 		"description": "A festive blend of sparkling champagne, crystal peonies & almond creme", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-19221600v850.jpg", 
 		"price": "$39.50", 
 		"fragranceName": "A Thousand Wishes Eau de Parfum", 
@@ -86,6 +99,7 @@
 	},
 	{
 		"description": "A soft blend of lavender, lilies, oakmoss & musk", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-15992283v850.jpg", 
 		"price": "$29.50", 
 		"fragranceName": "Moonlight Path Eau de Toilette",  
@@ -93,6 +107,7 @@
 	},
 	{
 		"description": "A wondrous blend of almond flower, white iris & whipped vanilla", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24394602v850.jpg",
 		"price": "$39.50", 
 		"fragranceName": "Magic in the Air Eau de Parfum", 
@@ -100,6 +115,7 @@
 		},
 	{
 		"description": "A carefree blend of green apple, wild pink poppies & dewy pear", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-14865694v850.jpg",
 		"price": "$29.50", 
 		"fragranceName": "Beautiful Day Eau de Toilette",  
@@ -107,6 +123,7 @@
 	},
 	{
 		"description": "A sweet indulgence of sheer florals, vanilla absolute & sandalwood", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-15992282v850.jpg",
 		"price": "$29.50", 
 		"fragranceName": "Warm Vanilla Sugar Eau de Toilette", 
@@ -114,6 +131,7 @@
 	},
 	{
 		"description": "An award-winning mix of juicy raspberries & pear kissed by soft pink petals", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-13237754v850.jpg",
 		"price": "$34.50", 
 		"fragranceName": "Sweet Pea Eau de Toilette", 
@@ -121,6 +139,7 @@
 	},
 	{
 		"description": "A romantic bouquet of French lavender, nectarine de Provence& sun-kissed honey.", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-17940113v850.jpg",
 		"price": "$39.50", 
 		"fragranceName": "French Lavender & Honey Eau de Parfum", 
@@ -130,6 +149,7 @@
 		"fragranceName": "Mandarin Oak Cologne Mist", 
 		"price": "$9.00",  
 		"gender": "men", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24816226v850.jpg", 
 		"description": "A new collection of unisex fragrances! Warm. Woody. Oriental citrus."
 	},
@@ -137,6 +157,7 @@
 		"fragranceName": "Cashmere Fig Eau de Toilette", 
 		"price": "$45.00",  
 		"gender": "men", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24827645v850.jpg", 
 		"description": "A new collection of unisex fragrances! Creamy. Fresh. Fruity floral."
 	},
@@ -144,6 +165,7 @@
 		"fragranceName": "Almond Musk Cologne Mist", 
 		"price": "$9.00",
 		"gender": "men", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24816228v850.jpg", 
 		"description": "A new collection of unisex fragrances! Warm. Soft. Second-skin musk."
 	},
@@ -151,6 +173,7 @@
 		"fragranceName": "Almond Musk Eau de Toilette", 
 		"price": "$45.00",  
 		"gender": "men", 
+		"company": "Bed Bath and Beyond",
 		"fragranceImage": "http://www.bathandbodyworks.com/graphics/product_images/pBBW1-24827648v850.jpg", 
 		"description": "A new collection of unisex fragrances! Warm. Soft. Second-skin musk."
 	}

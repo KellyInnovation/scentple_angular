@@ -13,7 +13,7 @@
 				class="top-selection"
 				ng-click="mainCtrl.gender = 'women'; mainCtrl.selectCategory()"
 			>
-				Women						
+				WOMEN						
 			</button>
 		</div>
 		<div class="row">
@@ -24,7 +24,7 @@
 					data-target="#scentCategories"
 					ng-click="mainCtrl.gender=='women'"
 				>
-					Scent						
+					CATEGORY			
 				</button>
 			</div>
 		</div>
@@ -36,7 +36,7 @@
 					data-target="#priceRanges"
 					ng-click="mainCtrl.gender=='women'"
 				>
-					Price						
+					PRICE						
 				</button>
 			</div>
 		</div>
@@ -48,7 +48,7 @@
 					data-target="#brands"
 					ng-click="mainCtrl.gender=='women'"
 				>
-					Brand						
+					BRAND						
 				</button>
 			</div>
 		</div>
@@ -56,17 +56,19 @@
 			<div class="col-sm-offset-1 col-sm-9">
 				<button 
 					class="selection-choices"
-					ng-model="mainCtrl.gender == 'women'"
-					ng-click="mainCtrl.selectCategory()"
+					ng-click="mainCtrl.gender == 'women'; mainCtrl.byName == true; mainCtrl.selectCategory()"
 				>
-					Name						
+					NAME						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
-				<button class="selection-choices">
-					Featured						
+				<button 
+					class="selection-choices"
+					ng-click="mainCtrl.gender == 'women'; mainCtrl.pickAPage = 'sample_card.html' "
+				>
+					FEATURED		
 				</button>
 			</div>
 		</div>
@@ -82,41 +84,41 @@
 		</div>
 		<div class="row">
 			<button class="top-selection">
-				Neutral						
+				NEUTRAL						
 			</button>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Scent						
+					CATEGORY			
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Price						
+					PRICE						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Brand						
+					BRAND						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Name						
+					NAME						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Featured						
+					FEATURED						
 				</button>
 			</div>
 		</div>
@@ -132,41 +134,41 @@
 		</div>				
 		<div class="row">
 			<button class="top-selection">
-				Men						
+				MEN					
 			</button>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Scent						
+					CATEGORY			
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Price						
+					PRICE						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Brand						
+					BRAND						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Name						
+					NAME						
 				</button>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
 				<button class="selection-choices">
-					Featured						
+					FEATURED						
 				</button>
 			</div>
 		</div>				
@@ -182,7 +184,7 @@
 	>
 		<div class="modal-content">
 			<div class="modal-header">
-				<h2>Prices</h2>
+				<h2>PRICES</h2>
 			</div>
 		</div>
 		
