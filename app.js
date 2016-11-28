@@ -49,13 +49,10 @@ function MainController($http) {
 
 	function fragranceInformation(scent) {
 		ctrl.fragranceInfo = [];
-		console.log("info run");
 		// var index = ctrl.contentsJSON.indexOf(scent);
 		ctrl.fragranceInfo.push(scent);
-		console.log(ctrl.fragranceInfo);
 		ctrl.pickAPage = 'fragrance_information.html';
 	}
-
 
 	ctrl.getJSON = getJSON;
 	ctrl.selectCategory = selectCategory;

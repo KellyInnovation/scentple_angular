@@ -140,7 +140,8 @@ footer {
 .card-logo {
 	padding: 10px;
 	align: center;
-	width: 80%;
+	height: 150px;
+	max-width: 100%;
 }
 
 .scentple-logo {

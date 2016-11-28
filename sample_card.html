@@ -5,18 +5,18 @@
 </div>
 
 <div class="card-box " >
-	<div class="col-sm-4 col-sm-offset-4">	
+	<div class="col-sm-6 col-sm-offset-3" ng-repeat="info in mainCtrl.fragranceInfo">	
 		<div class="row">
-			<img class="card-logo" src="http://www.chanel.com/en_US/fragrance-beauty/cms2export/Site1Files/P126440/S126490_XLARGE.jpg">
+			<img src="{{info.fragranceImage}}" class="card-logo">
 		</div>
-		<div class="row">
-	    	<h2>Chance</h2>
-	    </div>
+		<div class="row info-company">
+			<h2>{{info.company}}</h2>
+		</div>
+	    <div class="row info-name">
+			<h3>{{info.fragranceName}}</h3>
+		</div>
 	    <div class="row">
-	    	<h3>Eau de Toilette</h3>
-	    </div>
-	    <div class="row">
-	    	<h3>www.Chanel.com</h3>
+	    	<h3>{{info.website}}</h3>
 	    </div>
 	</div>
 </div>
