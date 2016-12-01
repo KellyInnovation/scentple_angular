@@ -9,7 +9,17 @@ function MainController($http) {
 	ctrl.price = '';
 	ctrl.byName = false;
 	ctrl.displayContents = [];
-	ctrl.fragranceInfo = [];
+	ctrl.fragranceInfo = [{
+		"fragranceName": "No 5: Eau Premiere Spray",
+		"company": "Chanel",
+		"gender": "women",
+		"description": "A modern, airy interpretation of N°5 . . . a silky-smooth harmony of notes that reveals the delicate facet of the now and forever fragrance. Created by Gabrielle Chanel in 1921 to be the ultimate symbol of luxurious simplicity, N°5 has since become more than a fragrance. It is an olfactory heritage: an idea of femininity, a masterpiece of chic, passed on from generation to generation.",
+		"fragranceImage": "http://www.chanel.com/en_US/fragrance-beauty/cms2export/Site1Files/P105170/S105340_XLARGE.jpg",
+		"fragranceFamily": "Floral",
+		"website": "www.Chanel.com",
+		"price": "$76.00",
+		"featured": true
+	},];
 	ctrl.womenJSON
 
 
