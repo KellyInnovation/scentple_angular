@@ -31,14 +31,15 @@ function MainController($http) {
 	function selectCategory() {
 		ctrl.displayContents = [];
 		if (ctrl.gender == 'women') {
-			ctrl.displayContents.push(
-				);
+			// ctrl.displayContents.push(
+			// 	);
+			console.log('women');
 		}
 		else if (ctrl.gender == 'men') {
 			console.log('men');
 		}
 		else if (ctrl.gender == 'neutral') {
-			console.log('neutral')
+			console.log('neutral');
 		}
 		else {
 			alert("incorrect entry")

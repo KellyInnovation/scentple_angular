@@ -83,7 +83,10 @@
 			</div>
 		</div>
 		<div class="row">
-			<button class="top-selection">
+			<button 
+				class="top-selection"
+				ng-click="mainCtrl.gender = 'neutral'; mainCtrl.selectCategory()"
+			>
 				NEUTRAL						
 			</button>
 		</div>
@@ -133,7 +136,10 @@
 			</div>
 		</div>				
 		<div class="row">
-			<button class="top-selection">
+			<button 
+				class="top-selection"
+				ng-click="mainCtrl.gender = 'men'; mainCtrl.selectCategory()"
+			>
 				MEN					
 			</button>
 		</div>
