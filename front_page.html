@@ -3,13 +3,13 @@
 	<iframe width="854" height="480" src="https://www.youtube.com/embed/cwfVjUw2BDU" frameborder="0" allowfullscreen></iframe>
 	<button 
 		class="col-sm-offset-9 col-sm-1 front-page-buttons"
-		ng-click="mainCtrl.pickAPage = 'fragrance_information.html'"
+		ng-click="scent = mainCtrl.featuredWomen; mainCtrl.fragranceInformation(scent)"
 	>
 		<i class="fa fa-info" aria-hidden="true"></i>
 	</button>
 	<button 
 		class="col-sm-1 front-page-buttons"
-		ng-click="mainCtrl.pickAPage = 'sample_card.html'"
+		ng-click="scent = mainCtrl.featuredWomen; mainCtrl.sampleCard(scent)"
 	>
 		<i class="fa fa-print" aria-hidden="true"></i>
 	</button>

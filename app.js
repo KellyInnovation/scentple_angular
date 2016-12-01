@@ -9,7 +9,7 @@ function MainController($http) {
 	ctrl.price = '';
 	ctrl.order = 'id';
 	ctrl.displayContents = [];
-	ctrl.fragranceInfo = [{
+	ctrl.featuredWomen = {
 		"fragranceName": "No 5: Eau Premiere Spray",
 		"company": "Chanel",
 		"gender": "women",
@@ -19,7 +19,8 @@ function MainController($http) {
 		"website": "www.Chanel.com",
 		"price": "$76.00",
 		"featured": true
-	},];
+	};
+	ctrl.fragranceInfo = [ctrl.featuredWomen,];
 	ctrl.womenJSON
 
 
@@ -65,9 +66,16 @@ function MainController($http) {
 		ctrl.pickAPage = 'fragrance_information.html';
 	}
 
+	function sampleCard(scent) {
+		ctrl.fragranceInfo = [];
+		ctrl.fragranceInfo.push(scent);
+		ctrl.pickAPage = 'sample_card.html';
+	}
+
 	ctrl.getJSON = getJSON;
 	ctrl.selectCategory = selectCategory;
 	ctrl.fragranceInformation = fragranceInformation;
+	ctrl.sampleCard = sampleCard;
 
 	ctrl.getJSON()
 }
