@@ -7,7 +7,7 @@ function MainController($http) {
 	ctrl.gender = '';
 	ctrl.category = '';
 	ctrl.price = '';
-	ctrl.byName = false;
+	ctrl.order = 'id';
 	ctrl.displayContents = [];
 	ctrl.fragranceInfo = [{
 		"fragranceName": "No 5: Eau Premiere Spray",

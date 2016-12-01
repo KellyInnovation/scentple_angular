@@ -22,7 +22,7 @@
 					class="selection-choices"
 					data-toggle="modal"
 					data-target="#scentCategories"
-					ng-click="mainCtrl.gender=='women'"
+					ng-click="mainCtrl.gender ='women'"
 				>
 					CATEGORY			
 				</button>
@@ -46,7 +46,7 @@
 					class="selection-choices"
 					data-toggle="modal"
 					data-target="#brands"
-					ng-click="mainCtrl.gender=='women'"
+					ng-click="mainCtrl.gender ='women'"
 				>
 					BRAND						
 				</button>
@@ -56,7 +56,7 @@
 			<div class="col-sm-offset-1 col-sm-9">
 				<button 
 					class="selection-choices"
-					ng-click="mainCtrl.gender == 'women'; mainCtrl.byName == true; mainCtrl.selectCategory()"
+					ng-click="mainCtrl.gender = 'women'; mainCtrl.order = 'fragranceName'; mainCtrl.selectCategory()"
 				>
 					NAME						
 				</button>
@@ -66,7 +66,7 @@
 			<div class="col-sm-offset-1 col-sm-9">
 				<button 
 					class="selection-choices"
-					ng-click="mainCtrl.gender == 'women'; mainCtrl.pickAPage = 'sample_card.html' "
+					ng-click="mainCtrl.gender = 'women'; mainCtrl.pickAPage = 'sample_card.html' "
 				>
 					FEATURED		
 				</button>
@@ -113,7 +113,10 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
-				<button class="selection-choices">
+				<button 
+					class="selection-choices"
+					ng-click="mainCtrl.gender = 'neutral'; mainCtrl.order = 'fragranceName'; mainCtrl.selectCategory()"
+				>
 					NAME						
 				</button>
 			</div>
@@ -166,7 +169,10 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
-				<button class="selection-choices">
+				<button 
+					class="selection-choices"
+					ng-click="mainCtrl.gender = 'men'; mainCtrl.order = 'fragranceName'; mainCtrl.selectCategory()"
+				>
 					NAME						
 				</button>
 			</div>
