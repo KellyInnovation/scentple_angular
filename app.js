@@ -20,6 +20,19 @@ function MainController($http) {
 		"price": "$76.00",
 		"featured": true
 	};
+	ctrl.featuredMen = {
+		"id": 2,
+		"fragranceName": "Guilty",
+		"company": "Gucci",
+		"gender": "men",
+		"promotion": "Introducing a limited edition version of the Gucci Guilty fragrance.  Inspired by the world of Alessandro Michele, this collector's edition is presented in a platinum-toned metal bottle with interlocking G design.",		
+		"description": "Top notes of geranium and pink pepper.  Heart notes of lilac and peach.  Base notes of amber and patchouli.",
+		"fragranceImage": "http://www.perfumeprice.net/media/catalog/product/cache/1/image/512x512/9df78eab33525d08d6e5fb8d27136e95/g/w/gwegergsde.jpg",
+		"fragranceFamily": "Floral Musk",
+		"website": "www.Gucci.com",
+		"featured": true
+	};
+
 	ctrl.fragranceInfo = [ctrl.featuredWomen,];
 	ctrl.womenJSON
 

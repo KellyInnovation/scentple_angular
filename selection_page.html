@@ -66,7 +66,7 @@
 			<div class="col-sm-offset-1 col-sm-9">
 				<button 
 					class="selection-choices"
-					ng-click="mainCtrl.gender = 'women'; mainCtrl.pickAPage = 'sample_card.html' "
+					ng-click="scent = mainCtrl.featuredWomen; mainCtrl.fragranceInformation(scent)"
 				>
 					FEATURED		
 				</button>
@@ -179,7 +179,10 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-offset-1 col-sm-9">
-				<button class="selection-choices">
+				<button 
+					class="selection-choices"
+					ng-click="scent = mainCtrl.featuredMen; mainCtrl.fragranceInformation(scent)"
+				>
 					FEATURED						
 				</button>
 			</div>
